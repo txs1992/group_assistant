@@ -1,0 +1,23 @@
+@import '../../styles/common.scss';
+
+.media_container{
+  display: none;
+}
+
+@include phones{
+  .media_container.showPhones{
+    display: block;
+  }
+}
+
+@include tablets{
+  .media_container.showTablets{
+    display: block;
+  }
+}
+
+@include desktops{
+  .media_container.showDesktops{
+    display: block;
+  }
+}

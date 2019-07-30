@@ -1,4 +1,5 @@
 import React from 'react';
+import MediaContainer from './components/mediaContainer';
 
 interface AppProps{}
 
@@ -10,7 +11,9 @@ class App extends React.Component<AppProps> {
 
   render() {
     return (
-      <div className="app">Hello world</div>
+      <MediaContainer className="app" showDesktops>
+        Hello world
+      </MediaContainer>
     );
   }
 }
