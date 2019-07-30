@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.scss';
 
 interface AppProps{}
 
@@ -11,9 +10,7 @@ class App extends React.Component<AppProps> {
 
   render() {
     return (
-      <div className="app">
-      Hello world
-      </div>
+      <div className="app">Hello world</div>
     );
   }
 }
